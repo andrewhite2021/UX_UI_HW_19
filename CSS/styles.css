@@ -429,6 +429,10 @@ nav {
     padding-top: 3rem;
 }
 
+#aboutMe h2, p {
+    color: #000000;
+}
+
 #resume {
     display: flex;
     flex-direction: row;
@@ -685,6 +689,59 @@ nav {
     margin: 0 auto;
     width: 944px;
     height: auto;
+}
+
+/*contactPage*/
+
+.blackSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    Height: auto;
+    background-color: #000000;
+}
+
+.narrow {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    width: 34.8rem;
+    margin-top: 2.6rem;
+    margin-bottom: 2.6rem;
+    padding: 1rem;
+}
+
+.contactsMain {
+    display: flex;
+    flex-direction: row;
+    width:59.2rem;
+   align-self: center;
+   align-content: space-between;
+   justify-content: space-around;
+}
+
+#contactList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footerImage {
+    display: flex;
+    position: relative;
+    width:1140px;
+    height: 12.6rem;
+    margin: 2.6rem 0 2.6rem 0;
+    align-self: center;
+    background-image: url(../images/footerBulb.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 /*footer*/
 
